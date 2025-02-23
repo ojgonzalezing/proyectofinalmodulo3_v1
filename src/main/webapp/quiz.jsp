@@ -1,13 +1,15 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page import="java.util.List, models.Adivinanza, controllers.Adivinanzas"%>
+<%@ page import="java.util.List, models.*, controllers.Adivinanzas"%>
 
 <%
     List<Adivinanza> adivinanzas = Adivinanzas.listarAdivinanzas(2);
+    Jugador jugador = new Jugador();
+    jugador.setNombre(request.getParameter("nombre"));
+    session.setAttribute("jugador", jugador);
     session.setAttribute("adivinanzas",adivinanzas);
     session.setAttribute("puntaje", 0);
     session.setAttribute("idAdivinanza", 0);
-    session.setAttribute("nombre", request.getParameter("nombre"));
 %>
 
 <!DOCTYPE html>
@@ -21,7 +23,7 @@
         <h2>
             Bienvenido
             <%
-                out.print(session.getAttribute("nombre"));
+                out.print(session.getAttribute(jugador.getNombre()));
             %>
         </h2>
         <c:set var="adivinanza" value="${adivinanzas[idAdivinanza]}" />
