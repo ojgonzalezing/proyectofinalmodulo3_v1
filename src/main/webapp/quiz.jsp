@@ -19,7 +19,10 @@
 
     <body>
         <h2>
-            Bienvenido ${session.getId()}
+            Bienvenido
+            <%
+                out.print(session.getAttribute("nombre"));
+            %>
         </h2>
         <c:set var="adivinanza" value="${adivinanzas[idAdivinanza]}" />
         <h1>${adivinanza.pregunta}</h1>
