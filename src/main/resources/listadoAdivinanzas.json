@@ -1,202 +1,202 @@
 [
     {
-        "Pregunta": "Quien lo fabrica, no lo necesita. Quien lo compra, no lo necesita. Quien lo usa, no lo ve ni lo siente. ¿Qué es?",
-        "Respuesta": "Un ataúd."
+        "ID": "1",
+        "Pregunta": "Quien lo fabrica, no lo necesita. Quien lo compra, no lo necesita. Quien lo usa, no lo ve ni lo siente. ¿Qué es?"
     },
     {
-        "Pregunta": "Si me dejas caer, seguro que me parto. Dame una sonrisa, y siempre te devolveré otra. ¿Qué soy?",
-        "Respuesta": "Un espejo."
+        "ID": "2",
+        "Pregunta": "Si me dejas caer, seguro que me parto. Dame una sonrisa, y siempre te devolveré otra. ¿Qué soy?"
     },
     {
-        "Pregunta": "Entras en una habitación a oscuras y solo tienes una cerilla. Tienes delante un periódico, una vela y un haz de leña. ¿Qué enciendes primero?",
-        "Respuesta": "La cerilla."
+        "ID": "3",
+        "Pregunta": "Entras en una habitación a oscuras y solo tienes una cerilla. Tienes delante un periódico, una vela y un haz de leña. ¿Qué enciendes primero?"
     },
     {
-        "Pregunta": "¿Cuál es la pregunta de dos palabras a la que nunca puedes responder \"\"sí\"\"?",
-        "Respuesta": "¿Estás muerto?"
+        "ID": "4",
+        "Pregunta": "¿Cuál es la pregunta de dos palabras a la que nunca puedes responder \"\"sí\"\"?"
     },
     {
-        "Pregunta": "¿Cuántos ladrillos se necesitan para completar un edificio de ladrillo?",
-        "Respuesta": "Uno, el último."
+        "ID": "5",
+        "Pregunta": "¿Cuántos ladrillos se necesitan para completar un edificio de ladrillo?"
     },
     {
-        "Pregunta": "Hablo sin boca y oigo sin oídos. No tengo cuerpo, pero cobro vida con el viento. ¿Qué soy?",
-        "Respuesta": "El eco."
+        "ID": "6",
+        "Pregunta": "Hablo sin boca y oigo sin oídos. No tengo cuerpo, pero cobro vida con el viento. ¿Qué soy?"
     },
     {
-        "Pregunta": "Mides mi vida en horas y yo te sirvo expirando. Soy rápido cuando estoy delgado y lento cuando estoy gordo. El viento es mi enemigo.",
-        "Respuesta": "Una vela."
+        "ID": "7",
+        "Pregunta": "Mides mi vida en horas y yo te sirvo expirando. Soy rápido cuando estoy delgado y lento cuando estoy gordo. El viento es mi enemigo."
     },
     {
-        "Pregunta": "Los pobres lo tienen. Los ricos la necesitan. Si te lo comes te mueres. ¿Qué es?",
-        "Respuesta": "Nada."
+        "ID": "8",
+        "Pregunta": "Los pobres lo tienen. Los ricos la necesitan. Si te lo comes te mueres. ¿Qué es?"
     },
     {
-        "Pregunta": "Tengo ciudades, pero no casas. Tengo montañas, pero no árboles. Tengo agua, pero no peces. ¿Qué soy?",
-        "Respuesta": "Un mapa."
+        "ID": "9",
+        "Pregunta": "Tengo ciudades, pero no casas. Tengo montañas, pero no árboles. Tengo agua, pero no peces. ¿Qué soy?"
     },
     {
-        "Pregunta": "¿Qué está siempre delante de ti, pero no se ve?",
-        "Respuesta": "El futuro."
+        "ID": "10",
+        "Pregunta": "¿Qué está siempre delante de ti, pero no se ve?"
     },
     {
-        "Pregunta": "Me encontrarás en Mercurio, la Tierra, Marte, Júpiter, Saturno y Urano. Pero nunca en Neptuno ni en Venus. ¿Qué soy?",
-        "Respuesta": "La letra R."
+        "ID": "11",
+        "Pregunta": "Me encontrarás en Mercurio, la Tierra, Marte, Júpiter, Saturno y Urano. Pero nunca en Neptuno ni en Venus. ¿Qué soy?"
     },
     {
-        "Pregunta": "¿Cuántos meses tienen 28 días?",
-        "Respuesta": "Todos los meses tienen 28 días."
+        "ID": "12",
+        "Pregunta": "¿Cuántos meses tienen 28 días?"
     },
     {
-        "Pregunta": "Una mujer dispara a su marido y lo mantiene bajo el agua durante cinco minutos. A continuación, lo ahorca. Justo después, disfrutan de una cena encantadora. ¿Cómo lo explicas?",
-        "Respuesta": "Le hizo una foto y la reveló en su cuarto oscuro."
+        "ID": "13",
+        "Pregunta": "Una mujer dispara a su marido y lo mantiene bajo el agua durante cinco minutos. A continuación, lo ahorca. Justo después, disfrutan de una cena encantadora. ¿Cómo lo explicas?"
     },
     {
-        "Pregunta": "Cuando está viva cantamos, cuando está muerta aplaudimos. ¿Qué es?",
-        "Respuesta": "Una vela de cumpleaños."
+        "ID": "14",
+        "Pregunta": "Cuando está viva cantamos, cuando está muerta aplaudimos. ¿Qué es?"
     },
     {
-        "Pregunta": "Hago un ruido fuerte cuando me cambio. Cuando me cambio, me hago más grande pero peso menos. ¿Qué soy?",
-        "Respuesta": "Palomitas de maíz."
+        "ID": "15",
+        "Pregunta": "Hago un ruido fuerte cuando me cambio. Cuando me cambio, me hago más grande pero peso menos. ¿Qué soy?"
     },
     {
-        "Pregunta": "Dos niñas nacieron de la misma madre, el mismo día, a la misma hora, en el mismo mes y año, y sin embargo, no son gemelas. ¿Cómo puede ser?",
-        "Respuesta": "Las dos niñas son dos de un par de trillizas."
+        "ID": "16",
+        "Pregunta": "Dos niñas nacieron de la misma madre, el mismo día, a la misma hora, en el mismo mes y año, y sin embargo, no son gemelas. ¿Cómo puede ser?"
     },
     {
-        "Pregunta": "Una niña tiene tantos hermanos como hermanas, pero cada hermano tiene solo la mitad de hermanos que hermanas. ¿Cuántos hermanos y hermanas hay en la familia?",
-        "Respuesta": "Cuatro hermanas y tres hermanos."
+        "ID": "17",
+        "Pregunta": "Una niña tiene tantos hermanos como hermanas, pero cada hermano tiene solo la mitad de hermanos que hermanas. ¿Cuántos hermanos y hermanas hay en la familia?"
     },
     {
-        "Pregunta": "¿Qué desaparece en cuanto se pronuncia su nombre?",
-        "Respuesta": "El silencio."
+        "ID": "18",
+        "Pregunta": "¿Qué desaparece en cuanto se pronuncia su nombre?"
     },
     {
-        "Pregunta": "¿Cuáles son las tres letras siguientes de esta combinación? UDTCCSS...",
-        "Respuesta": "OND (Cada letra representa la primera letra de los números escritos: Uno, Dos, Tres, Cuatro, Cinco...)."
+        "ID": "19",
+        "Pregunta": "¿Cuáles son las tres letras siguientes de esta combinación? UDTCCSS..."
     },
     {
-        "Pregunta": "Esto te pertenece, pero todos los demás lo usan más que tú.",
-        "Respuesta": "Tu nombre."
+        "ID": "20",
+        "Pregunta": "Esto te pertenece, pero todos los demás lo usan más que tú."
     },
     {
-        "Pregunta": "Primero, piensa en el color de las nubes. Después, piensa en el color de la nieve. Ahora, piensa en el color de una luna llena brillante. Ahora contesta rápidamente: ¿qué beben las vacas?",
-        "Respuesta": "No es la leche, ¡es agua!"
+        "ID": "21",
+        "Pregunta": "Primero, piensa en el color de las nubes. Después, piensa en el color de la nieve. Ahora, piensa en el color de una luna llena brillante. Ahora contesta rápidamente: ¿qué beben las vacas?"
     },
     {
-        "Pregunta": "Primero me comes y luego te comen. ¿Qué soy?",
-        "Respuesta": "Un anzuelo."
+        "ID": "22",
+        "Pregunta": "Primero me comes y luego te comen. ¿Qué soy?"
     },
     {
-        "Pregunta": "¿Qué es más fuerte que el acero, pero no puede soportar el sol?",
-        "Respuesta": "El hielo."
+        "ID": "23",
+        "Pregunta": "¿Qué es más fuerte que el acero, pero no puede soportar el sol?"
     },
     {
-        "Pregunta": "¿Qué es lo que nadie quiere, pero nadie quiere perder?",
-        "Respuesta": "Un pleito."
+        "ID": "24",
+        "Pregunta": "¿Qué es lo que nadie quiere, pero nadie quiere perder?"
     },
     {
-        "Pregunta": "Cuanto más hay, menos se ve. ¿Qué soy?",
-        "Respuesta": "La oscuridad."
+        "ID": "25",
+        "Pregunta": "Cuanto más hay, menos se ve. ¿Qué soy?"
     },
     {
-        "Pregunta": "¿Cómo suman ocho ochos mil?",
-        "Respuesta": "888 + 88 + 8 + 8 + 8 = 1000."
+        "ID": "26",
+        "Pregunta": "¿Cómo suman ocho ochos mil?"
     },
     {
-        "Pregunta": "¿Qué puedes tener en la mano derecha, pero nunca en la izquierda?",
-        "Respuesta": "Tu mano izquierda."
+        "ID": "27",
+        "Pregunta": "¿Qué puedes tener en la mano derecha, pero nunca en la izquierda?"
     },
     {
-        "Pregunta": "Un hombre condujo de Madrid a Moscú en cuatro días. Al final de su viaje, descubrió que una de sus ruedas estaba pinchada. ¿Cómo pudo hacer el viaje?",
-        "Respuesta": "Era la rueda de repuesto."
+        "ID": "28",
+        "Pregunta": "Un hombre condujo de Madrid a Moscú en cuatro días. Al final de su viaje, descubrió que una de sus ruedas estaba pinchada. ¿Cómo pudo hacer el viaje?"
     },
     {
-        "Pregunta": "Un mago presumía de cuánto tiempo podía aguantar la respiración bajo el agua. Su récord era de 6 minutos. Un niño que estaba escuchando dijo: \"\"eso no es nada, ¡yo puedo aguantar bajo el agua 10 minutos!\"\". El mago le dijo al niño que si podía hacer eso, le daría mil euros. El niño lo hizo y ganó el dinero. ¿Cómo lo hizo?",
-        "Respuesta": "Llenó un vaso de agua y lo mantuvo sobre su cabeza durante 10 minutos."
+        "ID": "29",
+        "Pregunta": "Un mago presumía de cuánto tiempo podía aguantar la respiración bajo el agua. Su récord era de 6 minutos. Un niño que estaba escuchando dijo: \"\"eso no es nada, ¡yo puedo aguantar bajo el agua 10 minutos!\"\". El mago le dijo al niño que si podía hacer eso, le daría mil euros. El niño lo hizo y ganó el dinero. ¿Cómo lo hizo?"
     },
     {
-        "Pregunta": "Estoy lleno de agujeros, pero soy fuerte como el acero. ¿Qué soy?",
-        "Respuesta": "Una cadena."
+        "ID": "30",
+        "Pregunta": "Estoy lleno de agujeros, pero soy fuerte como el acero. ¿Qué soy?"
     },
     {
-        "Pregunta": "Un barril de agua pesaba 60 kilos. Alguien puso algo en él y ahora pesa 40 kilos. ¿Qué añadió esa persona?",
-        "Respuesta": "Un agujero."
+        "ID": "31",
+        "Pregunta": "Un barril de agua pesaba 60 kilos. Alguien puso algo en él y ahora pesa 40 kilos. ¿Qué añadió esa persona?"
     },
     {
-        "Pregunta": "Tú eres mi hermano, pero yo no soy tu hermano. ¿Quién soy yo?",
-        "Respuesta": "Tu hermana."
+        "ID": "32",
+        "Pregunta": "Tú eres mi hermano, pero yo no soy tu hermano. ¿Quién soy yo?"
     },
     {
-        "Pregunta": "Dos hombres están en un desierto. Ambos llevan mochilas. Uno de ellos está muerto. El que está vivo tiene la mochila abierta y el que está muerto la tiene cerrada. ¿Qué hay en la mochila del muerto?",
-        "Respuesta": "Un paracaídas."
+        "ID": "33",
+        "Pregunta": "Dos hombres están en un desierto. Ambos llevan mochilas. Uno de ellos está muerto. El que está vivo tiene la mochila abierta y el que está muerto la tiene cerrada. ¿Qué hay en la mochila del muerto?"
     },
     {
-        "Pregunta": "Solo me tumbo una vez en la vida: cuando muero. ¿Qué soy?",
-        "Respuesta": "Un árbol."
+        "ID": "34",
+        "Pregunta": "Solo me tumbo una vez en la vida: cuando muero. ¿Qué soy?"
     },
     {
-        "Pregunta": "¿Qué camina sobre cuatro pies por la mañana, dos por la tarde y tres por la noche?",
-        "Respuesta": "Un hombre. Las horas del día representan toda una vida. Gatea de bebé, camina de adulto y anda con bastón de anciano."
+        "ID": "35",
+        "Pregunta": "¿Qué camina sobre cuatro pies por la mañana, dos por la tarde y tres por la noche?"
     },
     {
-        "Pregunta": "Es suave por dentro y peludo por fuera. Con un poco de esfuerzo, lo podrás meter dentro.",
-        "Respuesta": "Un calcetín."
+        "ID": "36",
+        "Pregunta": "Es suave por dentro y peludo por fuera. Con un poco de esfuerzo, lo podrás meter dentro."
     },
     {
-        "Pregunta": "Bolas grandes, colgantes, gordas y peludas que son voluminosas y hermosas.",
-        "Respuesta": "Los cocos."
+        "ID": "37",
+        "Pregunta": "Bolas grandes, colgantes, gordas y peludas que son voluminosas y hermosas."
     },
     {
-        "Pregunta": "¿Qué puede dar una vaca flaca?",
-        "Respuesta": "Lástima (o leche desnatada)."
+        "ID": "38",
+        "Pregunta": "¿Qué puede dar una vaca flaca?"
     },
     {
-        "Pregunta": "Todos me pisan a mí, pero yo no piso a nadie; todos preguntan por mí, yo no pregunto por nadie.",
-        "Respuesta": "Un camino."
+        "ID": "39",
+        "Pregunta": "Todos me pisan a mí, pero yo no piso a nadie; todos preguntan por mí, yo no pregunto por nadie."
     },
     {
-        "Pregunta": "Brazos con brazos, panza con panza, rascando en medio, surge la danza.",
-        "Respuesta": "La guitarra."
+        "ID": "40",
+        "Pregunta": "Brazos con brazos, panza con panza, rascando en medio, surge la danza."
     },
     {
-        "Pregunta": "Tengo llaves pero no cerradura. El blanco y el negro pasan por mi cintura.",
-        "Respuesta": "El kárate."
+        "ID": "41",
+        "Pregunta": "Tengo llaves pero no cerradura. El blanco y el negro pasan por mi cintura."
     },
     {
-        "Pregunta": "Vengo y voy, voy y vengo dejando blanco lo que era negro.",
-        "Respuesta": "La goma de borrar"
+        "ID": "42",
+        "Pregunta": "Vengo y voy, voy y vengo dejando blanco lo que era negro."
     },
     {
-        "Pregunta": "Doce señoras, todas con medias y sin zapatos.",
-        "Respuesta": "Las horas."
+        "ID": "43",
+        "Pregunta": "Doce señoras, todas con medias y sin zapatos."
     },
     {
-        "Pregunta": "Te lo digo y te lo repito, y te lo puedo avisar, y por más que te lo diga no lo vas a adivinar.",
-        "Respuesta": "El té."
+        "ID": "44",
+        "Pregunta": "Te lo digo y te lo repito, y te lo puedo avisar, y por más que te lo diga no lo vas a adivinar."
     },
     {
-        "Pregunta": "Somos muchos hermanitos, en una sola casa vivimos, si nos rascan la cabeza al instante morimos.",
-        "Respuesta": "Los cerillas."
+        "ID": "45",
+        "Pregunta": "Somos muchos hermanitos, en una sola casa vivimos, si nos rascan la cabeza al instante morimos."
     },
     {
-        "Pregunta": "Tres cuevas en la montaña, en dos el aire va a entrar y la tercera el vidrio empaña.",
-        "Respuesta": "La nariz y la boca."
+        "ID": "46",
+        "Pregunta": "Tres cuevas en la montaña, en dos el aire va a entrar y la tercera el vidrio empaña."
     },
     {
-        "Pregunta": "Va al campo y no come, va al río y no bebe y con sonar se mantiene.",
-        "Respuesta": "El cencerro."
+        "ID": "47",
+        "Pregunta": "Va al campo y no come, va al río y no bebe y con sonar se mantiene."
     },
     {
-        "Pregunta": "Cincuenta damas, cinco galanes; ellos piden pan, ellas piden ave.",
-        "Respuesta": "El Rosario."
+        "ID": "48",
+        "Pregunta": "Cincuenta damas, cinco galanes; ellos piden pan, ellas piden ave."
     },
     {
-        "Pregunta": "Antes que nazca la madre, anda el hijo por la calle.",
-        "Respuesta": "El humo."
+        "ID": "49",
+        "Pregunta": "Antes que nazca la madre, anda el hijo por la calle."
     },
     {
-        "Pregunta": "Se viste el cielo de luces en cascada de colores, para alegrar en la noche a los que están más tristones.",
-        "Respuesta": "Los fuegos artificiales."
+        "ID": "50",
+        "Pregunta": "Se viste el cielo de luces en cascada de colores, para alegrar en la noche a los que están más tristones."
     }
 ]
