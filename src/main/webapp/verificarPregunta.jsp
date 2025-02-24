@@ -5,8 +5,9 @@
 <%
     String respuesta = request.getParameter("respuesta");
     List<Adivinanza> adivinanzas = (List<Adivinanza>)session.getAttribute("adivinanzas");
+    String nombre = (String)session.getAttribute("nombre");
     int puntaje = (int)session.getAttribute("puntaje");
-    int indiceActual = (int)session.getAttribute("idAdivinanza");
+    int idAdivinanza = (int)session.getAttribute("idAdivinanza");
 
     Adivinanza adivinanzaActual = adivinanzas.get(idAdivinanza);
 
@@ -14,9 +15,9 @@
         puntaje++;
         session.setAttribute("puntaje",puntaje);
     }
-    indiceActual++;
+    idAdivinanza++;
     session.setAttribute("idAdivinanza",idAdivinanza);
-
+    session.setAttribute("nombre", nombre);
     if(idAdivinanza >= adivinanzas.size() || puntaje >= 2){
         response.sendRedirect("resultados.jsp");
     }else{

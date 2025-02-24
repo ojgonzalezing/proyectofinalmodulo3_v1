@@ -4,12 +4,12 @@
 
 <%
     List<Adivinanza> adivinanzas = Adivinanzas.listarAdivinanzas(2);
-    Jugador jugador = new Jugador();
-    jugador.setNombre(request.getParameter("nombre"));
-    session.setAttribute("jugador", jugador);
+    session.setAttribute("nombre", request.getParameter("nombre"));
     session.setAttribute("adivinanzas",adivinanzas);
     session.setAttribute("puntaje", 0);
-    session.setAttribute("idAdivinanza", 0);
+    if(session.getAttribute("idAdivinanza") == null){
+        session.setAttribute("idAdivinanza", 0);
+    }
 %>
 
 <!DOCTYPE html>
@@ -23,9 +23,21 @@
         <h2>
             Bienvenido
             <%
-                out.print(session.getAttribute(jugador.getNombre()));
+                out.print(session.getAttribute("nombre"));
             %>
         </h2>
+
+        <h3>
+            Contador de adivinanzas:
+            <% out.print(session.getAttribute("idAdivinanza"));
+            %>
+        </h3>
+        <h3>
+            Su puntaje:
+            <%
+                out.print(session.getAttribute("puntaje"));
+            %>
+        </h3>
         <c:set var="adivinanza" value="${adivinanzas[idAdivinanza]}" />
         <h1>${adivinanza.pregunta}</h1>
         <form action="verificarPregunta.jsp" method="post">

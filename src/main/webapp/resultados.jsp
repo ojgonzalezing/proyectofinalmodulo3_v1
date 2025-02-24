@@ -9,10 +9,10 @@
     <body>
         <h1>Resultados</h1>
         <h3>
-            Nombre jugador: ${session.nombre}
+            Nombre jugador: <% out.print(session.getAttribute("nombre")); %>
         </h3>
         <h3>
-            Puntaje Final: ${session.puntaje}
+            Puntaje Final: <% out.print(session.getAttribute("puntaje")); %>
         </h3>
 
     </body>

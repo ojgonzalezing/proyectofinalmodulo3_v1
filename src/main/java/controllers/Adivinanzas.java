@@ -1,6 +1,7 @@
 package controllers;
 
 import models.Adivinanza;
+import netscape.javascript.JSObject;
 
 import java.util.ArrayList;
 import java.util.Collections;
