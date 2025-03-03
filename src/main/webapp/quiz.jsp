@@ -10,6 +10,11 @@
     if(session.getAttribute("idAdivinanza") == null){
         session.setAttribute("idAdivinanza", 0);
     }
+    Jugador jugador = new Jugador();
+    if(jugador.getNombre() == null){
+        session.setAttribute("nombre",request.getParameter("nombre"));
+    }
+    session.setAttribute("jugador", jugador);
 %>
 
 <!DOCTYPE html>
@@ -23,7 +28,7 @@
         <h2>
             Bienvenido
             <%
-                out.print(session.getAttribute("nombre"));
+                session.getAttribute("nombre");
             %>
         </h2>
 
