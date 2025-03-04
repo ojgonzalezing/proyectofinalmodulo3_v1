@@ -1,5 +1,6 @@
 package controllers;
 import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -29,8 +30,7 @@ public class VerificarPregunta extends HttpServlet {
 
         try{
             if(respuesta != null && respuesta.equals(adivinanzaActual != null ? adivinanzaActual.getRespuestaCorrecta() : null)){
-                puntaje ++;
-                session.setAttribute("puntaje", puntaje);
+                puntaje++;
             }
         }catch (NullPointerException npex){
             System.out.println("Error de tipo: " + npex.getMessage());
@@ -38,14 +38,15 @@ public class VerificarPregunta extends HttpServlet {
         ++idAdivinanza;
         session.setAttribute("idAdivinanza", idAdivinanza);
         session.setAttribute("nombre", nombre);
+        session.setAttribute("puntaje", puntaje);
 
-        if( idAdivinanza >= adivinanzas.size()){
-            RequestDispatcher requestDispatcher;
-            requestDispatcher = request.getRequestDispatcher("/resultados.jsp");
+        ServletContext servletContext = getServletContext();
+        RequestDispatcher requestDispatcher = null;
+        if( idAdivinanza >= adivinanzas.size() || puntaje >= 5){
+            requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
             requestDispatcher.forward(request, response);
         }else{
-            RequestDispatcher requestDispatcher;
-            requestDispatcher = request.getRequestDispatcher("/quiz.jsp");
+            requestDispatcher = servletContext.getRequestDispatcher("/quiz.jsp");
             requestDispatcher.forward(request, response);
         }
     }

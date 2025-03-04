@@ -3,18 +3,19 @@
 <%@ page import="java.util.List, models.*, controllers.Adivinanzas"%>
 
 <%
-    List<Adivinanza> adivinanzas = Adivinanzas.listarAdivinanzas(2);
-    session.setAttribute("nombre", request.getParameter("nombre"));
+    List<Adivinanza> adivinanzas = Adivinanzas.listarAdivinanzas(5);
     session.setAttribute("adivinanzas",adivinanzas);
-    session.setAttribute("puntaje", 0);
     if(session.getAttribute("idAdivinanza") == null){
         session.setAttribute("idAdivinanza", 0);
     }
-    Jugador jugador = new Jugador();
-    if(jugador.getNombre() == null){
-        session.setAttribute("nombre",request.getParameter("nombre"));
+    session.setAttribute("nombre", session.getAttribute("nombre"));
+    if(session.getAttribute("nombre") == null){
+        session.setAttribute("nombre", request.getParameter("nombre"));
     }
-    session.setAttribute("jugador", jugador);
+    session.setAttribute("puntaje", session.getAttribute("puntaje"));
+    if(session.getAttribute("puntaje") == null){
+        session.setAttribute("puntaje", 0);
+    }
 %>
 
 <!DOCTYPE html>
@@ -28,7 +29,7 @@
         <h2>
             Bienvenido
             <%
-                session.getAttribute("nombre");
+                out.print(session.getAttribute("nombre"));
             %>
         </h2>
 
