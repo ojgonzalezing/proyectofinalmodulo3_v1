@@ -33,7 +33,7 @@ public class VerificarPregunta extends HttpServlet {
 
         ServletContext servletContext = getServletContext();
         RequestDispatcher requestDispatcher = null;
-        if( idAdivinanza >= adivinanzas.size() || puntaje >= 10){
+        if( idAdivinanza >= adivinanzas.size()){
             requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
             requestDispatcher.forward(request, response);
         }else{
@@ -41,5 +41,4 @@ public class VerificarPregunta extends HttpServlet {
             requestDispatcher.forward(request, response);
         }
     }
-
 }
