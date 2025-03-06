@@ -3,7 +3,7 @@
 <%@ page import="java.util.List, models.*, controllers.Adivinanzas"%>
 
 <%
-    List<Adivinanza> adivinanzas = Adivinanzas.listarAdivinanzas(5);
+    List<Adivinanza> adivinanzas = Adivinanzas.listarAdivinanzas(15);
     session.setAttribute("adivinanzas",adivinanzas);
     if(session.getAttribute("idAdivinanza") == null){
         session.setAttribute("idAdivinanza", 0);
@@ -16,6 +16,22 @@
     if(session.getAttribute("puntaje") == null){
         session.setAttribute("puntaje", 0);
     }
+
+    session.setAttribute("retos", session.getAttribute("retos"));
+    if(session.getAttribute("retos") == null){
+        session.setAttribute("retos",0);
+    }
+    session.setAttribute("victorias", session.getAttribute("victorias"));
+
+    if (session.getAttribute("victorias") == null){
+        session.setAttribute("victorias",0);
+    }
+
+    session.setAttribute("derrotas",session.getAttribute("derrotas"));
+    if (session.getAttribute("derrotas") == null){
+        session.setAttribute("derrotas", 0);
+    }
+
 %>
 
 <!DOCTYPE html>
@@ -56,6 +72,7 @@
             <br>
             <div>
                 <input type="submit" value="Siguiente">
+                <input type="submit" formaction="resultados.jsp" value="Finalizar">
             </div>
         </form>
     </body>

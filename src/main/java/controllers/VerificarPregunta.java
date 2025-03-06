@@ -23,17 +23,8 @@ public class VerificarPregunta extends HttpServlet {
         int puntaje = (int)session.getAttribute("puntaje");
         int idAdivinanza = (int) session.getAttribute("idAdivinanza");
 
-        Adivinanza adivinanzaActual = null;
-        if(adivinanzas.contains(idAdivinanza)){
-            adivinanzaActual = adivinanzas.get(idAdivinanza);
-        }
-
-        try{
-            if(respuesta != null && respuesta.equals(adivinanzaActual != null ? adivinanzaActual.getRespuestaCorrecta() : null)){
-                puntaje++;
-            }
-        }catch (NullPointerException npex){
-            System.out.println("Error de tipo: " + npex.getMessage());
+        if(respuesta != null && respuesta.equals(adivinanzas.get(idAdivinanza).getRespuestaCorrecta())){
+            puntaje++;
         }
         ++idAdivinanza;
         session.setAttribute("idAdivinanza", idAdivinanza);
@@ -42,7 +33,7 @@ public class VerificarPregunta extends HttpServlet {
 
         ServletContext servletContext = getServletContext();
         RequestDispatcher requestDispatcher = null;
-        if( idAdivinanza >= adivinanzas.size() || puntaje >= 5){
+        if( idAdivinanza >= adivinanzas.size() || puntaje >= 10){
             requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
             requestDispatcher.forward(request, response);
         }else{
