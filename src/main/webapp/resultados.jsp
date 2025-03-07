@@ -47,6 +47,7 @@
                 </div>
                 <div>
                     <input type="submit" value="Reiniciar">
+                    <input type="submit" value="Cerrar Sesion" formaction="finalizarsesion.jsp">
                 </div>
             </form>
         </div>

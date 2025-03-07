@@ -22,21 +22,29 @@ public class VerificarPregunta extends HttpServlet {
         String nombre = (String)session.getAttribute("nombre");
         int puntaje = (int)session.getAttribute("puntaje");
         int idAdivinanza = (int) session.getAttribute("idAdivinanza");
+        int errores = (int)session.getAttribute("errores");
 
         if(respuesta != null && respuesta.equals(adivinanzas.get(idAdivinanza).getRespuestaCorrecta())){
             puntaje++;
+        }else {
+            errores++;
         }
+
         ++idAdivinanza;
         session.setAttribute("idAdivinanza", idAdivinanza);
         session.setAttribute("nombre", nombre);
         session.setAttribute("puntaje", puntaje);
+        session.setAttribute("errores", errores);
 
         ServletContext servletContext = getServletContext();
         RequestDispatcher requestDispatcher = null;
         if( idAdivinanza >= adivinanzas.size()){
             requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
             requestDispatcher.forward(request, response);
-        }else{
+        }else if (errores >= 6){
+            requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
+            requestDispatcher.forward(request, response);
+        }else {
             requestDispatcher = servletContext.getRequestDispatcher("/quiz.jsp");
             requestDispatcher.forward(request, response);
         }

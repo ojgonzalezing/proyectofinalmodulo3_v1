@@ -11,23 +11,17 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
-@WebServlet("/restaurarmarcadores.jsp")
-public class RestaurarMarcadores extends HttpServlet {
+@WebServlet("/finalizarsesion.jsp")
+public class FinalizarSesion extends HttpServlet {
+    private static final long serialVersionUID = 1L;
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         HttpSession session = request.getSession();
-        int puntaje = (int)session.getAttribute("puntaje");
-        int errores = (int)session.getAttribute("errores");
-        int idAdivinanza = (int) session.getAttribute("idAdivinanza");
-        puntaje = 0;
-        errores = 0;
-        idAdivinanza = 0;
-        session.setAttribute("puntaje", puntaje);
-        session.setAttribute("errores", errores);
-        session.setAttribute("idAdivinanza", idAdivinanza);
+        session.invalidate();
         ServletContext servletContext = getServletContext();
-        RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/quiz.jsp");
+        RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/index.jsp");
         requestDispatcher.forward(request, response);
     }
 }

@@ -22,7 +22,7 @@ Para cada una de las adivinanzas se te darán a escoger 2 respuestas, una de las
 
 Por cada acierto acumularas 1 punto de éxito, las respuestas incorrectas no otorgan puntaje.
 
-Si has acumulado mas de 5 desaciertos, automáticamente se declarará la derrota en el reto.
+Si has acumulado mas de 6 desaciertos, automáticamente se declarará la derrota en el reto.
 
 Si alcanzas un mínimo de 10 puntos habrás ganado, de lo contrario serás derrotado.
 

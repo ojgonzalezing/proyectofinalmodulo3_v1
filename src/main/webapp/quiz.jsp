@@ -17,12 +17,12 @@
         session.setAttribute("puntaje", 0);
     }
 
-    session.setAttribute("retos", session.getAttribute("retos"));
-    if(session.getAttribute("retos") == null){
-        session.setAttribute("retos",0);
+    session.setAttribute("errores", session.getAttribute("errores"));
+    if(session.getAttribute("errores") == null){
+        session.setAttribute("errores",0);
     }
-    session.setAttribute("victorias", session.getAttribute("victorias"));
 
+    session.setAttribute("victorias", session.getAttribute("victorias"));
     if (session.getAttribute("victorias") == null){
         session.setAttribute("victorias",0);
     }
