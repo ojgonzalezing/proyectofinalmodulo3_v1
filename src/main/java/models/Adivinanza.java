@@ -15,6 +15,7 @@ public class Adivinanza {
         this.respuestaErrada = respuestaErrada;
     }
 
+
     public String getPregunta() {
         return pregunta;
     }

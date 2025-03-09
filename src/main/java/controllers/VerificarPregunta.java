@@ -38,13 +38,10 @@ public class VerificarPregunta extends HttpServlet {
 
         ServletContext servletContext = getServletContext();
         RequestDispatcher requestDispatcher = null;
-        if( idAdivinanza >= adivinanzas.size()){
+        if(idAdivinanza >= adivinanzas.size() || errores >= 6){
             requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
             requestDispatcher.forward(request, response);
-        }else if (errores >= 6){
-            requestDispatcher = servletContext.getRequestDispatcher("/resultados.jsp");
-            requestDispatcher.forward(request, response);
-        }else {
+        } else {
             requestDispatcher = servletContext.getRequestDispatcher("/quiz.jsp");
             requestDispatcher.forward(request, response);
         }

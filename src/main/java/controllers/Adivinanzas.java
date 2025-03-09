@@ -1,11 +1,18 @@
 package controllers;
 
 import models.Adivinanza;
-import netscape.javascript.JSObject;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import models.Pregunta;
+import models.Respuesta;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.Collections;
 
 public class Adivinanzas {
 
@@ -63,7 +70,6 @@ public class Adivinanzas {
         adivianzas.add(new Adivinanza("Cincuenta damas, cinco galanes; ellos piden pan, ellas piden ave.","El Rosario.","Cuatro hermanas y tres hermanos."));
         adivianzas.add(new Adivinanza("Antes que nazca la madre, anda el hijo por la calle.","El humo.","888 + 88 + 8 + 8 + 8 = 1000."));
         adivianzas.add(new Adivinanza("Se viste el cielo de luces en cascada de colores, para alegrar en la noche a los que están más tristones.","Los fuegos artificiales.","¿Estás muerto?"));
-
     }
 
     public static List<Adivinanza> listarAdivinanzas(int numeroAdivinanzas){
@@ -71,4 +77,6 @@ public class Adivinanzas {
         Collections.shuffle(copiaLIstaAdivinanzas);
         return copiaLIstaAdivinanzas.subList(0, numeroAdivinanzas);
     }
+
+
 }
